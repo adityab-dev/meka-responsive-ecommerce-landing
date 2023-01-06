@@ -1,0 +1,14 @@
+.testimonial-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #07484a;
+
+  padding-top: 4.5rem;
+  padding-bottom: 2.5rem;
+}
+.testimonials-sub-heading {
+  text-align: center;
+  font-size: 1.9rem;
+  color: #07484a;
+}
