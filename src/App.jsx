@@ -20,8 +20,8 @@ function App() {
       {/* <OurOwnCreation /> */}
       <Benefits />
       <Testimonials />
-      {/* <Newsletter />
-      <Footer /> */}
+      <Newsletter />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -1,1 +1,0 @@
-# meka-responsive-ecommerce-landing
