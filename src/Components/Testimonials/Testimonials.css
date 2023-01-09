@@ -65,7 +65,17 @@ section {
   font-size: 1.25rem;
 }
 
-button {
+.button-ltr > button {
+  width: 2.2rem;
+  height: 2.2rem;
+
+  border: none;
+  border-radius: 100%;
+
+  background: rgb(162, 162, 199);
+}
+
+.button-rtl > button {
   width: 2.2rem;
   height: 2.2rem;
 
