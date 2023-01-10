@@ -1,0 +1,231 @@
+.creation-container {
+  height: 29rem;
+
+  display: flex;
+  gap: 1.5rem;
+
+  overflow: hidden;
+}
+
+.creation-col1-container {
+  height: 100%;
+  min-width: 33%;
+
+  background: #70908b;
+
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.creation-col1-container-center > h2 {
+  font-size: 3.5rem;
+  color: #fdfbf8;
+  font-weight: bold;
+}
+
+.creation-col1-container-center > p {
+  color: #fdfbf8;
+  font-size: 1.4rem;
+}
+
+.creation-more-container {
+  display: flex;
+  align-items: center;
+}
+
+.creation-more-container > div {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #fdfbf8;
+}
+
+.creation-col2to5 {
+  min-width: 85rem;
+
+  display: flex;
+  gap: 1.5rem;
+}
+
+.creation-col-common {
+  min-width: 25%;
+
+  background: #d9d9d9;
+
+  border-radius: 1rem;
+}
+
+.creation-scroll-button {
+  height: 0.25rem;
+  width: 30%;
+
+  background: #fdfbf8;
+}
+
+.creation-scroll-line {
+  height: 2px;
+  width: 70%;
+
+  background: #07484a;
+}
+
+.creation-scroll-container {
+  width: 30%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creation-buttons-contianer {
+  display: flex;
+  gap: 20px;
+}
+
+.creation-buttons-contianer > button {
+  min-width: 2.2rem;
+  min-height: 2.2rem;
+
+  font-size: 0.75rem;
+
+  border-radius: 100%;
+  border: none;
+
+  background: rgb(94, 94, 170);
+
+  color: white;
+  text-align: center;
+}
+
+.creation-col1-buttom-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.creation-col1-container-center {
+  padding-bottom: 1rem;
+}
+
+.creation-heading-1 {
+  padding-bottom: 0.7rem;
+}
+
+.creation-heading-2 {
+  padding-bottom: 1.75rem;
+}
+
+.creation-p {
+  padding-bottom: 1.75rem;
+}
+
+.creation-col-btn-container-placement {
+  height: 90%;
+  width: 100%;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.creation-col-btn-container > button {
+  border: none;
+  border-radius: 0.3rem;
+
+  background: white;
+
+  padding: 1.2rem;
+
+  font-size: 1.05rem;
+}
+
+@media (max-width: 1150px) {
+  .creation-col1-container {
+    min-width: 40%;
+  }
+
+  .creation-col1-container-center {
+    width: 90%;
+  }
+
+  .creation-col1-buttom-container {
+    width: 87.5%;
+  }
+}
+
+@media (max-width: 950px) {
+  .creation-col1-container {
+    min-width: 55%;
+  }
+
+  .creation-col1-buttom-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 690px) {
+  .creation-col1-container-center > h2 {
+    font-size: 2.5rem;
+  }
+
+  .creation-col1-container-center {
+    width: 80%;
+  }
+
+  .creation-scroll-container {
+    display: none;
+  }
+
+  .creation-buttons-contianer {
+    display: none;
+  }
+}
+
+@media (max-width: 555px) {
+  .creation-col1-container {
+    min-width: 65%;
+  }
+
+  .creation-col1-container-center {
+    width: 90%;
+  }
+
+  .creation-col1-container-center > h2 {
+    font-size: 2.25rem;
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 410px) {
+  .creation-col1-container {
+    min-width: 65%;
+  }
+}
+
+@media (max-width: 375px) {
+  .creation-col1-container-center > h2 {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
+  .creation-col1-container-center > p {
+    color: #fdfbf8;
+    font-size: 1.1rem;
+  }
+
+  .creation-container {
+    height: 18rem;
+  }
+
+  .creation-col2to5 {
+    min-width: 65rem;
+
+    display: flex;
+    gap: 1.5rem;
+  }
+}

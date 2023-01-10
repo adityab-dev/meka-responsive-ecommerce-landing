@@ -16,12 +16,12 @@ function App() {
       {/* <Header /> */}
       {/* <ExploreByCategory /> */}
       {/* <PopularProducts /> */}
-      {/* <SpecialPackage /> */}
+      <SpecialPackage />
       {/* <OurOwnCreation /> */}
       {/* <Benefits /> */}
-      {/* <Testimonials />
-      <Newsletter /> */}
-      <Footer />
+      {/* <Testimonials /> */}
+      {/* <Newsletter /> */}
+      {/* <Footer /> */}
     </>
   );
 }
