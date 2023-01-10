@@ -1,0 +1,177 @@
+.footer-container {
+  height: 29rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-container > p {
+  width: 80%;
+
+  text-align: left;
+}
+
+.footer-col-container {
+  width: 80%;
+  height: 60%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-2to5-height {
+  height: 47.5%;
+}
+
+.footer-col-container-common {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-col-links {
+  height: 55%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-col1-container {
+  height: 85%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-col1-top-container {
+  height: 35%;
+}
+
+.footer-col1-logo-container {
+  display: flex;
+}
+
+.footer-col1-bottom-container {
+  height: 55%;
+}
+
+.footer-col1-bottom {
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-col1-links {
+  height: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-col1-top {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-col1-container {
+  width: 20%;
+}
+
+.footer-col1-handle-plugins-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col-heading {
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .footer-col-container {
+    width: 90%;
+  }
+
+  .footer-col1-container {
+    width: 30%;
+  }
+
+  .footer-container > p {
+    width: 90%;
+
+    text-align: left;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    height: 90%;
+  }
+
+  .footer-col-1 {
+    grid-area: row1;
+  }
+  .footer-col-2 {
+    grid-area: row2col1;
+  }
+  .footer-col-3 {
+    grid-area: row2col2;
+  }
+  .footer-col-4 {
+    grid-area: row3col1;
+  }
+  .footer-col-5 {
+    grid-area: row3col2;
+  }
+  .footer-p {
+    grid-area: footerP;
+  }
+  .footer-col-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15rem 10rem 10rem;
+    grid-template-areas:
+      "row1 ."
+      "row2col1 row2col2"
+      "row3col1 row3col2";
+    /* since row1 spans 2 parent is entire first row. styling has to be different. */
+
+    gap: 1rem;
+  }
+
+  .footer-col1-container {
+    width: 90%;
+    height: 100%;
+  }
+
+  .footer-col-container-common {
+    height: 55%;
+  }
+
+  .footer-col-links {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer-col-container {
+    grid-template-areas:
+      "row1 row1"
+      "row2col1 row2col2"
+      "row3col1 row3col2";
+  }
+
+  .footer-container > p {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
