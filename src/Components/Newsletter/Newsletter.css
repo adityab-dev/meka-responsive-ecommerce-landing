@@ -130,16 +130,18 @@
   .news-container {
     display: flex;
     flex-direction: column;
+
+    height: 72rem;
   }
 
   .news-left-container {
     width: 100%;
-    min-height: 38rem;
+    min-height: 30rem;
   }
 
   .news-right-container {
     width: 100%;
-    min-height: 38rem;
+    min-height: 30rem;
   }
 
   .news-right-input-container {

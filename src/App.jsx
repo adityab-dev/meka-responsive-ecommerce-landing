@@ -13,15 +13,15 @@ import Testimonials from "./Components/Testimonials/Testimonials";
 function App() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <ExploreByCategory /> */}
+      <Header />
+      <ExploreByCategory />
       {/* <PopularProducts /> */}
       <SpecialPackage />
-      {/* <OurOwnCreation /> */}
-      {/* <Benefits /> */}
-      {/* <Testimonials /> */}
-      {/* <Newsletter /> */}
-      {/* <Footer /> */}
+      <OurOwnCreation />
+      <Benefits />
+      <Testimonials />
+      <Newsletter />
+      <Footer />
     </>
   );
 }
